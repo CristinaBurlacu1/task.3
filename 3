@@ -1,0 +1,19 @@
+public class TaxCalculator {
+    public static void main(String[] args) {
+        // Declarați și inițializați variabilele
+        double price = 50.0;
+        double tax = 0.2;  // 20% taxă
+        int quantity = 3;
+        double total = 0;
+        String message = "I want to buy " + quantity + " shirt!";
+
+        // Afișarea mesajului
+        System.out.println(message);
+
+        // Calcularea valorii totale cu taxă
+        total = price * quantity * (1 + tax);
+
+        // Afișarea costului total
+        System.out.println("Total cost with tax is: " + total);
+    }
+}
